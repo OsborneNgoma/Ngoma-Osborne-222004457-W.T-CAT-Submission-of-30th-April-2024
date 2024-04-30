@@ -1,4 +1,4 @@
-USERS OF SYSTEM:
+USERS OF THE SYSTEM:
 1.	User name 1: osb (this one is class representative)
 Password: 123456
 
