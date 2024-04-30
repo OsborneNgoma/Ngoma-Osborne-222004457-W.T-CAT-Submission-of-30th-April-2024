@@ -27,7 +27,7 @@
     .container {
       width: 400px;
       margin: 0 auto;
-      margin-top: 50px; /* Adjust as needed */
+      margin-top: 50px; 
       background-color: #fff;
       padding: 20px;
       border-radius: 8px;
