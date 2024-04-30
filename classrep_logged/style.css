@@ -9,14 +9,14 @@ body {
   border-radius: 10px;
   background-color: #fff; /* White background */
   margin: 5% auto; /* Center the container */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Slightly stronger box shadow */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
   max-width: 600px; /* Limit container width */
 }
 
 h1 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #333; /* Dark gray text color */
+  color: #333; 
 }
 
 label {
@@ -24,25 +24,25 @@ label {
   margin-bottom: 0.5rem;
   display: block;
   margin-left: 5px;
-  color: #666; /* Medium gray text color */
+  color: #666; 
 }
 
 button {
   margin: 1rem auto; /* Center the button */
-  background-color: #007bff; /* Bootstrap primary color */
+  background-color: #007bff; 
   margin-left: 220px;
   border: none;
   color: #fff; /* White text color */
   padding: 0.8rem 1.5rem; /* Increase padding for better button appearance */
   border-radius: 25px; /* Round button corners */
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
 }
 
 button:hover {
-  background-color: #0056b3; /* Darker shade of primary color on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger box shadow on hover */
+  background-color: #0056b3; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
 
 select.form-select {
@@ -56,7 +56,7 @@ input.form-control {
   border-radius: 25px; /* Round input box corners */
   border: 2px solid #007bff; /* Add border for better visual separation */
   padding: 0.5rem 1rem; /* Increase padding for better appearance */
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #f8f9fa; 
 }
 
 .dropdown-container {
@@ -70,5 +70,5 @@ input.form-control {
 }
 
 .logout-container button {
-  margin-left: 10px; /* Add some space between logout button and other content */
+  margin-left: 10px; /* Adding some space between logout button and other content */
 }
