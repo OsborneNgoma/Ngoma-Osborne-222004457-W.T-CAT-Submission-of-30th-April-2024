@@ -1,0 +1,74 @@
+/* Custom CSS styles */
+body {
+  background-color: #f4f4f4; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #fff; /* White background */
+  margin: 5% auto; /* Center the container */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Slightly stronger box shadow */
+  max-width: 600px; /* Limit container width */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333; /* Dark gray text color */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-left: 5px;
+  color: #666; /* Medium gray text color */
+}
+
+button {
+  margin: 1rem auto; /* Center the button */
+  background-color: #007bff; /* Bootstrap primary color */
+  margin-left: 220px;
+  border: none;
+  color: #fff; /* White text color */
+  padding: 0.8rem 1.5rem; /* Increase padding for better button appearance */
+  border-radius: 25px; /* Round button corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade of primary color on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger box shadow on hover */
+}
+
+select.form-select {
+  border-radius: 25px; /* Round select box corners */
+  border: 2px solid #007bff; /* Add border for better visual separation */
+  padding: 0.5rem 1rem; /* Increase padding for better appearance */
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+input.form-control {
+  border-radius: 25px; /* Round input box corners */
+  border: 2px solid #007bff; /* Add border for better visual separation */
+  padding: 0.5rem 1rem; /* Increase padding for better appearance */
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.logout-container {
+  text-align: right; /* Align button to the right */
+  margin-right: 20px;
+}
+
+.logout-container button {
+  margin-left: 10px; /* Add some space between logout button and other content */
+}

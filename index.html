@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS */
+    .navbar {
+      background-color: #343a40; /* Dark background color */
+    }
+    .navbar-nav .nav-item .btn {
+      color: #fff;
+      background-color: #007bff; /* Bootstrap primary color */
+      border: none;
+      margin-right: 10px; /* Add some spacing between buttons */
+    }
+    .navbar-nav .nav-item .btn:hover {
+      background-color: #0056b3; /* Darker shade of primary color on hover */
+    }
+    .navbar-nav .nav-item .btn:focus {
+      box-shadow: none;
+    }
+    body {
+      background-image: url('Hod_logged/picture1.jpg'); /* my background image URL */
+      background-size: 100%;
+      background-position: cover;
+      background-repeat: no-repeat;
+      position: relative; /* Make the body relative for absolute positioning */
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7); /* Enhanced overlay color and opacity */
+      z-index: -1; /* Place behind other content */
+    }
+    .container-center {
+      text-align: center;
+      margin-top: 250px;
+      color: white; 
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .logout-link {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div> <!-- Overlay added -->
+
+  <div class="container-fluid" style="margin-top: 100px;">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container-center">
+          <h2>WELCOME TO THIS M.S </h2>
+          <p>The Classroom Allocation Management System (CAMS) is a comprehensive web-based application designed to streamline the allocation and management of classrooms within educational institutions. This system provides a centralized platform for administrators, faculty, and students to efficiently manage classroom assignments, schedules, and resources.</p>
+          <a href="Home.php"><button type="button" class="btn btn-outline-primary" style="border-radius: 20px;">SignUp/SignIN</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--   <div class="logout-link">
+    <a href="#" class="btn btn-link text-light">Logout</a>
+  </div> -->
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
